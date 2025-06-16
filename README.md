@@ -136,4 +136,4 @@ curl -X POST http://localhost:5000/predict \
 
 ## 🙌 Credits
 
-Made with ❤️ by [Your Name](https://github.com/your-username)
+Made with ❤️ by [DEV PATEL](https://github.com/devpatel0005)
