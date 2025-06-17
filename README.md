@@ -58,7 +58,6 @@ pip install -r requirements.txt
 python flask_api.py
 ```
 
-> The API will be running at `http://127.0.0.1:5000/`
 
 ---
 
@@ -112,6 +111,12 @@ curl -X POST http://localhost:5000/predict \
 ```
 
 ---
+## Output
+![image](https://github.com/user-attachments/assets/2a64b2e9-6b06-4aeb-a096-294c374d2805)
+![image](https://github.com/user-attachments/assets/8fd36693-757d-46ab-8fd0-36d1c3669e1f)
+![image](https://github.com/user-attachments/assets/4017c689-67da-4524-a3ac-6bbad4800ed5)
+![image](https://github.com/user-attachments/assets/b7476eb8-2a8f-40ca-8128-e3dbf488e72d)
+
 
 ## 📈 Model Info
 
