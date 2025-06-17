@@ -32,6 +32,7 @@ This is a simple **Flask-based REST API** that authenticates whether a banknote 
 .
 ├── Dockerfile
 ├── flask_api.py            # Main Flask app
+├── streamlit_app.py        # streamlit deployment
 ├── requirements.txt        # Python dependencies
 ├── classifier.pkl          # Trained ML model
 ├── ModelTraining.ipynb     # Jupyter Notebook for training
@@ -74,48 +75,15 @@ docker run -p 5000:5000 money_api
 > Access the API at `http://localhost:5000/`
 
 ---
-
-## 🧪 API Usage
-
-### 🔹 Endpoint: `/predict`
-
-**Method:** `POST`  
-**Content-Type:** `application/json`
-
-### ✅ Sample Request:
-
-```json
-POST /predict
-{
-  "variance": 2.3,
-  "skewness": 3.4,
-  "curtosis": 1.5,
-  "entropy": -2.2
-}
-```
-
-### 🔄 Sample Curl:
-
-```bash
-curl -X POST http://localhost:5000/predict \
-  -H "Content-Type: application/json" \
-  -d '{"variance": 2.3, "skewness": 3.4, "curtosis": 1.5, "entropy": -2.2}'
-```
-
-### 🔙 Response:
-
-```json
-{
-  "prediction": "Fake Note"
-}
-```
-
----
-## Output
+## Flask Output
 ![image](https://github.com/user-attachments/assets/2a64b2e9-6b06-4aeb-a096-294c374d2805)
 ![image](https://github.com/user-attachments/assets/8fd36693-757d-46ab-8fd0-36d1c3669e1f)
 ![image](https://github.com/user-attachments/assets/4017c689-67da-4524-a3ac-6bbad4800ed5)
 ![image](https://github.com/user-attachments/assets/b7476eb8-2a8f-40ca-8128-e3dbf488e72d)
+
+## Streamlit Output
+![image](https://github.com/user-attachments/assets/988be4c1-f9f1-44f3-a5d5-5c4b86c8d65e)
+![image](https://github.com/user-attachments/assets/e235b552-05d7-45da-88f2-b59a8b612d56)
 
 
 ## 📈 Model Info
